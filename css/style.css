@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    height: 100%;
+    padding: 0;
+    /* overflow: hidden; */
+}
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    min-height: 100vh;
+    background-image: url("../img/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.container{
+    
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------HEADER------------------------------ */
+/* ------------------------------------------------------------------ */
+
+
+.header{
+    padding-top: 53px;
+}
+
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo__image{
+    margin-right: 6px;
+}
+
+.header-logo__text{
+    color: #FFF;
+    font-size: 18px;
+}
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+    
+
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu__item{
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.header-menu__link{
+    padding: 25px;
+    color: #FFF;
+}
+
+.header-menu__link:hover{
+    color: #FBB034;
+}
+
+.header-menu__item:last-child{
+    margin-right: 101px;
+}
+
+.header-btn{
+    background-color: #FBB034;
+    padding: 18px 53px;
+    font-size: 18px;
+}
+
+.header-btn:hover{
+    color: #FFF;
+    
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------MAIN-------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-text{
+    margin-top: 249px;
+    max-width: 700px;
+}
+
+.main-text__item{
+    margin-bottom: 22px;
+}
+
+.main-text__item:last-child{
+    margin-bottom: 42px;
+}
+
+.main-text__item.one{
+    font-family: 'Poppins', sans-serif;
+    color: #FBB034;
+    font-size: 26px;
+    font-style: normal;
+    /* line-height: 48px; */
+}
+
+.main-text__item.two{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 94.5%;
+}
+
+.main-text__item.three{
+    color: #9A9A9A;
+    max-width: 650px;
+    font-size: 31px;
+    line-height: 105%;
+
+    letter-spacing: 0px;
+
+}
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------FOOTER------------------------------ */
+/* ------------------------------------------------------------------ */
+
+.footer-btns{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    padding: 18px 53px;
+    margin-right: 40px;
+    font-size: 28px;
+
+    min-width: 182px;
+}
+.footer-btn.one{
+    background-color: #FBB034;
+}
+
+.footer-btn.one a:hover{
+    color:#FFF;
+}
+
+.footer-btn.two{
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------IMAGE------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.shell{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1920px;
+
+}
+
+.main-image{
+    position: absolute;
+    z-index: 0;
+    bottom: 0px;
+    right: 0px;
+
+    width: 800px;
+}
+
