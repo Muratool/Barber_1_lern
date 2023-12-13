@@ -18,7 +18,8 @@ body{
 }
 
 .content{
-    min-height: 100vh;
+    position: relative;
+    min-height: 100%;
     background-image: url("../img/background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -209,11 +210,11 @@ a{
 /* ------------------------------------------------------------------ */
 
 .shell{
-    height: 100vh;
+    min-height: 100%;
 
     display: flex;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
     padding: 0px;
     margin: 0 auto;
     max-width: 1920px;
@@ -227,6 +228,8 @@ a{
     right: 0px;
 
     width: 800px;
+
+    margin-top: 186px;
     
 }
 
